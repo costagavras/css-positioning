@@ -8,11 +8,11 @@ html {
   box-sizing: inherit;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%; /* this will be 16px on most browsers */
-  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+  line-height: 2; /* this is a multiple of the font size (1.5 * 16px = 24px) */
 }
 
 body {
-  margin: 0;
+  margin: 0px 400px;
 }
 
 img {
@@ -24,6 +24,41 @@ figure {
 }
 
 .film {
-  width: 50%;
-  margin: 40px auto;
+  margin: 40px;
+  position: relative;
+  height: 10%;
+  padding: 15px;
+  border: 2px solid grey;
+}
+
+.action-watch-later {
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.fa-2x {
+    font-size: 4em;
+}
+.fa-lg {
+    font-size: 2.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+    color: red;
+}
+.action-like {
+  bottom: 0;
+  right: 15px;
+  position: absolute;
+}
+.film-poster {
+  display:inline-block;
+  width: 25%;
+  position: relative;
+}
+.film-details {
+  vertical-align: top;
+  display: inline-block;
+  width: 74%;
+  position: relative;
 }
